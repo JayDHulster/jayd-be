@@ -48,7 +48,7 @@
               <v-col cols="auto">
                 <v-responsive width="350">
                   <h2 class="text-h4">
-                    New customization system
+                    <a href="sfyri.netlify.app" target="_blank" rel="noopener noreferrer">sfyri</a>
                   </h2>
 
                   <p class="text-success mt-3">
