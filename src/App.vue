@@ -82,7 +82,7 @@
                 Welcome to jayd.be!
               </h3>
 
-              <p class="mt-4 text-medium-emphasis">
+              <p class="mt-4">
               I will show you what I have so far!
               </p>
             </v-responsive>
