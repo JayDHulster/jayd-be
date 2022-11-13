@@ -97,11 +97,13 @@
               <v-col cols="auto">
                 <v-responsive width="350">
                   <h2 class="text-h4">
-                    <a href="https://sfyri.netlify.app" target="_blank" rel="noopener noreferrer">sfyri</a>
+                    <v-icon icon="mdi-account-hard-hat"></v-icon>
+                    UNDER CONSTRUCTION <v-icon icon="mdi-wrench"></v-icon>
                   </h2>
 
                   <p class="text-success mt-3">
-                    Global Defaults
+                    Visit <a href="https://sfyri.netlify.app" target="_blank" rel="noopener noreferrer">sfyri.netlify.app</a>
+                    for a little demo.
                   </p>
 
                   <strong class="mt-3">
