@@ -1,3 +1,19 @@
+<script>
+  export default {
+    name: 'App',
+    data () {
+      return {
+        dialog: false,
+      }
+    },
+    methods: {
+      copyToClipboard (textToCopy) {
+        navigator.clipboard.writeText(textToCopy)
+      },
+    },
+  }
+</script>
+
 <template>
   <v-app>
     <v-app-bar color="#2f3149">
@@ -14,6 +30,39 @@
           </div>
         </v-app-bar-title>
       </v-container>
+      <v-btn color="white" prepend-icon="mdi-account-box-multiple-outline">
+        Socials
+        <v-dialog
+        v-model="dialog"
+        activator="parent"
+      >
+        <v-card class="text-center">
+          <v-card-text>
+          <v-chip @click="copyToClipboard('sfyri#2946')"
+      prepend-icon="mdi-discord"
+      class="ma-2"
+      color="#5865F2"
+      label
+      text-color="white"
+    >
+      sfyri#2946
+    </v-chip>
+    <v-chip @click="copyToClipboard('jaydhulster@gmail.com')"
+      prepend-icon="mdi-email"
+      class="ma-2"
+      color="white"
+      label
+      text-color="white"
+    >
+      jaydhulster@gmail.com
+    </v-chip>
+          </v-card-text>
+          <v-card-actions>
+            <v-btn color="primary" block @click="dialog = false">Close Dialog</v-btn>
+          </v-card-actions>
+        </v-card>
+      </v-dialog>
+      </v-btn>
     </v-app-bar>
 
     <v-main>
@@ -225,7 +274,3 @@
     </v-footer>
   </v-app>
 </template>
-
-<script>
-  export default { name: 'App' }
-</script>
