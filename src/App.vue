@@ -23,7 +23,7 @@
 
             <img
               class="mr-3"
-              src="./img/jayd-dark-2.svg"
+              src="./img/jayd-logo-white.svg"
               height="70"
             >
           </div>
@@ -72,7 +72,7 @@
           <v-container class="text-center">
             <v-responsive class="mx-auto" width="600">
               <img
-                src="./img/jayd-light-2.svg"
+                src="./img/jayd-logo-green.svg"
                 height="400"
               >
 
