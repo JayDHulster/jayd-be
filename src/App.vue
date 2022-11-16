@@ -16,17 +16,16 @@
 
 <template>
   <v-app>
-    <v-app-bar color="#2f3149">
+    <v-app-bar color="primary">
       <v-container class="d-flex align-center py-0">
         <v-app-bar-title class="pl-0">
           <div class="d-flex align-center">
-            <v-avatar
-              rounded="0"
-              class="mr-3"
-              image="https://sfyri.netlify.app/src/icon-256.png"
-            />
 
-            jayd.be
+            <img
+              class="mr-3"
+              src="./img/jayd-dark-2.svg"
+              height="70"
+            >
           </div>
         </v-app-bar-title>
       </v-container>
@@ -69,14 +68,13 @@
       <section id="hero">
         <v-sheet
           class="d-flex align-center pb-16"
-          color="white"
         >
           <v-container class="text-center">
-            <v-responsive class="mx-auto" width="500">
-              <v-img
-                src="https://sfyri.netlify.app/src/icon-256.png"
+            <v-responsive class="mx-auto" width="600">
+              <img
+                src="./img/jayd-light-2.svg"
                 height="400"
-              />
+              >
 
               <h3 class="text-h3">
                 Welcome to jayd.be!
@@ -90,7 +88,7 @@
         </v-sheet>
       </section>
 
-      <v-sheet class="py-16" color="#4d4f61">
+      <v-sheet class="py-16" color="secondary">
         <section id="filter">
           <v-container>
             <v-row justify="space-between">
