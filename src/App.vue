@@ -72,7 +72,7 @@
           <v-container class="text-center">
             <v-responsive class="mx-auto" width="600">
               <img
-                src="./img/jayd-logo-green.svg"
+                src="./img/jayd-logo-green.png"
                 height="400"
               >
 
